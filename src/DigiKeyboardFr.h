@@ -18,6 +18,7 @@
 
 #define KEY_CAPSLOCK 57
 #define KEY_NUMLOCK 83
+#define KEY_ESC 41
 
 #define KEY_FR_A       20
 #define KEY_FR_B       5
