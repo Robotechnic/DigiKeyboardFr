@@ -12,6 +12,50 @@
 #define FR_MOD_ALT_RIGHT     (1<<14)
 #define FR_MOD_GUI_RIGHT     (1<<15)
 
+#define KEY_ARROW_RIGHT 79
+#define KEY_ARROW_UP 82
+#define KEY_ARROW_DOWN 81
+
+#define KEY_CAPSLOCK 57
+#define KEY_NUMLOCK 83
+
+#define KEY_FR_A       20
+#define KEY_FR_B       5
+#define KEY_FR_C       6
+#define KEY_FR_D       7
+#define KEY_FR_E       8
+#define KEY_FR_F       9
+#define KEY_FR_G       10
+#define KEY_FR_H       11
+#define KEY_FR_I       12
+#define KEY_FR_J       13
+#define KEY_FR_K       14
+#define KEY_FR_L       15
+#define KEY_FR_M       51
+#define KEY_FR_N       17
+#define KEY_FR_O       18
+#define KEY_FR_P       19
+#define KEY_FR_Q       4
+#define KEY_FR_R       21
+#define KEY_FR_S       22
+#define KEY_FR_T       23
+#define KEY_FR_U       24
+#define KEY_FR_V       25
+#define KEY_FR_W       29
+#define KEY_FR_X       27
+#define KEY_FR_Y       28
+#define KEY_FR_Z       26
+
+#define KEY_FR_0       98
+#define KEY_FR_1       89
+#define KEY_FR_2       90
+#define KEY_FR_3       91
+#define KEY_FR_4       92
+#define KEY_FR_5       93
+#define KEY_FR_6       94
+#define KEY_FR_7       95
+#define KEY_FR_8       96
+#define KEY_FR_9       97
 
 const uint16_t ascii_to_scan_code_table_fr[128] PROGMEM =
 		{
