@@ -5,7 +5,7 @@ For this library I was use this image wich come from [this](https://digistump.co
 ![KeyCodes](https://scriptel.com/KeyboardEmulationAPI/JavaScript/images/keyboard-identifiers.png)
 You can also find every **HID** codes [here](http://www.freebsddiary.org/APC/usb_hid_usages.php).
 
-##New spetial key
+## New spetial key
 | Consant |Key |
 | :-------: |:---: |
 | KEY_ARROW_RIGHT | Arrow right |
@@ -40,7 +40,6 @@ You can also find every **HID** codes [here](http://www.freebsddiary.org/APC/usb
 | KEY_FR_X | AZERTY lower case key x |
 | KEY_FR_Y | AZERTY lower case key y |
 | KEY_FR_Z | AZERTY lower case key z |
-
 | KEY_FR_0 | AZERTY key 0 |
 | KEY_FR_1 | AZERTY key 1 |
 | KEY_FR_2 | AZERTY key 2 |
