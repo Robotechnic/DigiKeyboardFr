@@ -1,4 +1,4 @@
-#DigiKeyboardFr 
+# DigiKeyboardFr 
 A libray that alow to use an **AZERTY** Keyboard with Digispark. This code is an adaptation of a code for German Keyboard. The original code come from [here](https://github.com/adnan-alhomssi/DigistumpArduinoDe/blob/master/digistump-avr/libraries/DigisparkKeyboard/DigiKeyboardDe.h)
 
 For this library I was use this image wich come from [this](https://digistump.com/board/index.php?topic=2289.0) digistump topic.
