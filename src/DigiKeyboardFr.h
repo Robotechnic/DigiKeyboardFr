@@ -192,6 +192,15 @@ const uint16_t ascii_to_scan_code_table_fr[128] PROGMEM =
 
 		};
 
+#undef FR_MOD_CONTROL_LEFT
+#undef FR_MOD_SHIFT_LEFT
+#undef FR_MOD_ALT_LEFT
+#undef FR_MOD_GUI_LEFT
+#undef FR_MOD_CONTROL_RIGHT
+#undef FR_MOD_SHIFT_RIGHT
+#undef FR_MOD_ALT_RIGHT
+#undef FR_MOD_GUI_RIGHT
+
 class DigiKeyboardDeviceFr : public DigiKeyboardDevice{
 	public:
 	size_t write(uint8_t chr) {
@@ -214,4 +223,5 @@ class DigiKeyboardDeviceFr : public DigiKeyboardDevice{
 	}
 };
 DigiKeyboardDeviceFr DigiKeyboardFr = DigiKeyboardDeviceFr();
+
 #endif //DIGIKEYBOARDFR_H
