@@ -19,6 +19,16 @@
 #define KEY_CAPSLOCK 57
 #define KEY_NUMLOCK 83
 #define KEY_ESC 41
+#define KEY_PRINT_SCREEN 70
+#define KEY_MUTE 0x7F
+#define KEY_VOLUME_UP 0x80
+#define KEY_VOLUME_DOWN 0x81
+#define KEY_COPY 0x7C
+#define KEY_PASTE 0x7D
+#define KEY_CUT 0x7B
+#define KEY_INSERT 0x49
+#define KEY_END 0x4D
+
 
 #define KEY_FR_A       20
 #define KEY_FR_B       5
@@ -58,8 +68,7 @@
 #define KEY_FR_8       96
 #define KEY_FR_9       97
 
-const uint16_t ascii_to_scan_code_table_fr[128] PROGMEM =
-		{
+const uint16_t ascii_to_scan_code_table_fr[] PROGMEM = {
 				0x00,                 // NUL
 				0x00,                 // SOH
 				0x00,                 // STX
@@ -92,8 +101,7 @@ const uint16_t ascii_to_scan_code_table_fr[128] PROGMEM =
 				0x00,                 // GS
 				0x00,                 // RS
 				0x00,                 // US
-				
-				44,                   //  ' '
+				44,                   // ' '
 				56,                   // !
 				32,                   // "
 				32|FR_MOD_ALT_RIGHT,  // #
@@ -125,7 +133,7 @@ const uint16_t ascii_to_scan_code_table_fr[128] PROGMEM =
 				46,                   // =
 				100|FR_MOD_SHIFT_LEFT,// >
 				16|FR_MOD_SHIFT_LEFT, // ?
-				39|FR_MOD_ALT_RIGHT,  //@
+				39|FR_MOD_ALT_RIGHT,  // @
 				20|FR_MOD_SHIFT_LEFT, // A
 				5|FR_MOD_SHIFT_LEFT,  // B
 				6|FR_MOD_SHIFT_LEFT,  // C
@@ -188,9 +196,8 @@ const uint16_t ascii_to_scan_code_table_fr[128] PROGMEM =
 				35|FR_MOD_ALT_RIGHT,  // |
 				46|FR_MOD_ALT_RIGHT,  // }
 				31|FR_MOD_ALT_RIGHT,  // ~
-				0                     // DEL
-
-		};
+				0,                    // DEL
+};
 
 #undef FR_MOD_CONTROL_LEFT
 #undef FR_MOD_SHIFT_LEFT

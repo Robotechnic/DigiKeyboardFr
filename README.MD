@@ -1,4 +1,5 @@
-# DigiKeyboardFr 
+# DigiKeyboardFr
+###### *Now Available on arduino library manager*
 A libray that alow to use an **AZERTY** Keyboard with Digispark. This code is an adaptation of a code for German Keyboard. The original code come from [here](https://github.com/adnan-alhomssi/DigistumpArduinoDe/blob/master/digistump-avr/libraries/DigisparkKeyboard/DigiKeyboardDe.h)
 
 For this library I was use this image wich come from [this](https://digistump.com/board/index.php?topic=2289.0) digistump topic.
@@ -53,6 +54,7 @@ You can also find every **HID** codes [here](http://www.freebsddiary.org/APC/usb
 | KEY_FR_9 | AZERTY key 9 |
 
 ## Releases:
+
 ### Release 1.0.0:
 * The same functions that the original library (write, sendKeyStroke...)
 * Every character of the base original lib have been converted to AZERTY keyboard
