@@ -197,6 +197,17 @@ const uint16_t ascii_to_scan_code_table_fr[] PROGMEM = {
 				46|FR_MOD_ALT_RIGHT,  // }
 				31|FR_MOD_ALT_RIGHT,  // ~
 				0,                    // DEL
+				38,                   //Ç
+				24,                   //ü
+				31,                   //é
+				20,                   //â
+				20,                   //ä
+				39,                   //à
+				20,                   //å
+				38,                   //ç
+				8,                   //ê
+				8,                   //ë
+				36,                   //è
 };
 
 #undef FR_MOD_CONTROL_LEFT
