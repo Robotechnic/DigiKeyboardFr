@@ -15,19 +15,34 @@
 #define KEY_ARROW_RIGHT 79
 #define KEY_ARROW_UP 82
 #define KEY_ARROW_DOWN 81
+#define KEY_ARROW_LEFT 80
 
 #define KEY_CAPSLOCK 57
 #define KEY_NUMLOCK 83
 #define KEY_ESC 41
 #define KEY_PRINT_SCREEN 70
+#define KEY_INSERT 0x49
+#define KEY_END 0x4D
+
 #define KEY_MUTE 0x7F
 #define KEY_VOLUME_UP 0x80
 #define KEY_VOLUME_DOWN 0x81
 #define KEY_COPY 0x7C
 #define KEY_PASTE 0x7D
 #define KEY_CUT 0x7B
-#define KEY_INSERT 0x49
-#define KEY_END 0x4D
+
+#define KEY_F1 0x3A
+#define KEY_F2 0x3B
+#define KEY_F3 0x3C
+#define KEY_F4 0x3D
+#define KEY_F5 0x3E
+#define KEY_F6 0x3F
+#define KEY_F7 0x40
+#define KEY_F8 0x41
+#define KEY_F9 0x42
+#define KEY_F10 0x43
+#define KEY_F11 0x44
+#define KEY_F12 0x45
 
 
 #define KEY_FR_A       20
