@@ -71,8 +71,8 @@ You can also find every **HID** codes [here](http://www.freebsddiary.org/APC/usb
 ### Release 1.0.1:
 * Add more exemples
 * Add more special key
-- KEY_BACKSPACE
-- KEY_DELETE
+KEY_BACKSPACE
+KEY_DELETE
 
 
 ### Release 1.0.0:
