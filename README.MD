@@ -71,19 +71,19 @@ You can also find every **HID** codes [here](http://www.freebsddiary.org/APC/usb
 ### Release 1.0.1:
 * Add more exemples
 * Add more special key
-KEY_BACKSPACE
-KEY_DELETE
+  - KEY_BACKSPACE
+  - KEY_DELETE
 
 
 ### Release 1.0.0:
 * The same functions that the original library (write, sendKeyStroke...)
 * Every character of the base original lib have been converted to AZERTY keyboard
 * New special key:
-KEY_ARROW_RIGHT, 
-KEY_ARROW_UP,
-KEY_ARROW_DOWN,
-KEY_CAPSLOCK,
-KEY_NUMLOCK,
-KEY_ESC,
+  - KEY_ARROW_RIGHT, 
+  - KEY_ARROW_UP,
+  - KEY_ARROW_DOWN,
+  - KEY_CAPSLOCK,
+  - KEY_NUMLOCK,
+  - KEY_ESC,
 and every AZERTY key with the prefix KEY_FR_
 * Example
