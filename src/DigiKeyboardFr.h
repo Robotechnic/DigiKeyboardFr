@@ -17,6 +17,9 @@
 #define KEY_ARROW_DOWN 81
 #define KEY_ARROW_LEFT 80
 
+#define KEY_DELETE 0x4C
+#define KEY_BACKSPACE 0x2A
+
 #define KEY_CAPSLOCK 57
 #define KEY_NUMLOCK 83
 #define KEY_ESC 41
@@ -126,7 +129,7 @@ const uint16_t ascii_to_scan_code_table_fr[] PROGMEM = {
 				33,                   // '
 				34,                   // (
 				45,                   // )
-				49,                   // *
+				85,                   // *
 				46|FR_MOD_SHIFT_LEFT, // +
 				16,                   // ,
 				35,                   // -

@@ -7,15 +7,29 @@ For this library I was use this image wich come from [this](https://digistump.co
 ![KeyCodes](https://scriptel.com/KeyboardEmulationAPI/JavaScript/images/keyboard-identifiers.png)
 You can also find every **HID** codes [here](http://www.freebsddiary.org/APC/usb_hid_usages.php).
 
-## New spetial key
+## Spetial key
+/!\ Volume key sems to works only on some board with no explanations
+
 | Consant |Key |
 | :-------: |:---: |
 | KEY_ARROW_RIGHT | Arrow right |
 | KEY_ARROW_UP | Arrow up |
 | KEY_ARROW_DOWN | Arrow down |
-| KEY_CAPSLOCK | Caps Lock |
-| KEY_NUMLOCK | Numpad Lock |
-| KEY_ESC | Escape |
+| KEY_ARROW_LEFT | Arrow left |
+| KEY_DELETE | Delete key (delete forward) |
+| KEY_BACKSPACE | backspace key (delete backward) |
+| KEY_CAPSLOCK | Capslock key |
+| KEY_NUMLOCK | Numlock key |
+| KEY_PRINT_SCREEN | Print screen key |
+| KEY_INSERT | insert key |
+| KEY_END | go to end key |
+| KEY_MUTE | volume mute key |
+| KEY_VOLUME_UP | volume up key |
+| KEY_VOLUME_DOWN | volume down key |
+| KEY_COPY | copy to clipboard key |
+| KEY_PASTE | paste from clipboard key |
+| KEY_CUT | cut to clipboard key |
+| KEY_ESC | Escape key |
 | KEY_FR_A | AZERTY lower case key a |
 | KEY_FR_B | AZERTY lower case key b |
 | KEY_FR_C | AZERTY lower case key c |
@@ -54,6 +68,12 @@ You can also find every **HID** codes [here](http://www.freebsddiary.org/APC/usb
 | KEY_FR_9 | AZERTY key 9 |
 
 ## Releases:
+### Release 1.0.1:
+* Add more exemples
+* Add more special key
+- KEY_BACKSPACE
+- KEY_DELETE
+
 
 ### Release 1.0.0:
 * The same functions that the original library (write, sendKeyStroke...)
